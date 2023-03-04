@@ -193,8 +193,12 @@ ul.services li {
     width: 100%;
   }
 
+  .quote {
+    overflow: hidden;
+  }
+
   #newsletter form input[type="email"], .quote input, .quote textarea {
-    width: 100%;
+    width: 100% !important;
     margin-bottom: 5px;
   }
 }
